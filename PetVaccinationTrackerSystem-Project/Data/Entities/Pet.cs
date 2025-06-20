@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static ReaLTaiizor.Util.RoundInt;
 
 namespace PetVaccinationTrackerSystem_Project.Data.Entities
 {
@@ -34,8 +35,9 @@ namespace PetVaccinationTrackerSystem_Project.Data.Entities
 
         public int OwnerPhoneNumber { get; set; }
 
-        public string Notes { get; set; }
         [StringLength(300)]
+        public string Notes { get; set; }
+        
 
         public string ImageRL { get; set; }
 
