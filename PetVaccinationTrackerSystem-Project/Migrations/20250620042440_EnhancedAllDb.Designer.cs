@@ -12,8 +12,8 @@ using PetVaccinationTrackerSystem_Project.Data;
 namespace PetVaccinationTrackerSystem_Project.Migrations
 {
     [DbContext(typeof(ModelContext))]
-    [Migration("20250620040348_EnhancedAll")]
-    partial class EnhancedAll
+    [Migration("20250620042440_EnhancedAllDb")]
+    partial class EnhancedAllDb
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
